@@ -1,0 +1,37 @@
+
+### .gitignore
+
+```gitignore
+# Ignorar arquivos Python compilados
+*.pyc
+*.pyo
+*.pyd
+
+# Ignorar diretórios de cache
+__pycache__/
+Enunciado do Projeto
+# Enunciado do Projeto: Incrementador de Valor
+
+## Objetivo
+
+Desenvolver um script em Python que defina uma função para incrementar um valor inteiro fornecido pelo usuário e exiba o valor incrementado.
+
+## Requisitos
+
+1. O script deve definir uma função chamada `incrementar` que recebe um parâmetro inteiro e retorna o valor incrementado em 1.
+2. O script deve solicitar ao usuário que insira um valor inteiro utilizando a função `input()`.
+3. Utilize a função `incrementar` para incrementar o valor fornecido pelo usuário.
+4. Exiba o valor incrementado usando a função `print()`.
+
+## Passos para Implementação
+
+1. Crie um arquivo chamado `incrementador_valor.py`.
+2. No arquivo, defina a função `incrementar` que adiciona 1 ao valor fornecido.
+3. Solicite ao usuário que insira um valor inteiro e armazene-o em uma variável.
+4. Chame a função `incrementar`, passando o valor como argumento, e armazene o resultado em uma variável.
+5. Exiba o valor incrementado.
+6. Salve e execute o script para verificar se o valor é incrementado corretamente.
+
+## Exemplo de Saída Esperada
+
+Digite um valor inteiro: 7 O valor incrementado é: 8
