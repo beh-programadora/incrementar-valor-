@@ -1,0 +1,14 @@
+
+def incrementar(valor):
+    return valor + 1 
+
+# leitura do valor 
+valor = int(input("digite um valor inteiro: "))
+
+# chamada da função 
+valor_incrementado = incrementar(valor)
+
+# exibição do valor incrementado
+print(f" o valor incrementado é: {valor_incrementado}")
+
+
